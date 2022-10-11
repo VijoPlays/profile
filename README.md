@@ -14,6 +14,8 @@ Run the following script:
 
 > npm run deploy
 
+Or push to the main branch and wait for the workflow to complete - it might take a while for the site to update after either one of them was a success.
+
 # Structure
 
 ## src/components
