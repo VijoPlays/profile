@@ -5,9 +5,17 @@
             "name": "Edge",
             "type": "msedge",
             "request": "launch",
-            "url": "http://localhost:3000",         //Change to the create-react-app default 3000
+            "url": "http://localhost:3000",
             "webRoot": "${workspaceRoot}/src",
-            "preLaunchTask": "npm: start"           //Add prelaunch Task npm: start (defined in tasks.json)
+            "preLaunchTask": "npm: start"
+        },
+        {
+            "name": "Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/src",
+            "preLaunchTask": "npm: start"
         }
     ]
 }
