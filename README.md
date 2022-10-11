@@ -8,6 +8,12 @@ You can find this page at: https://vijoplays.github.io/profile/.
 
 **Simply debug the 'src\index.tsx'-file by pressing 'F5' (or whatever the 'Run/Debug' key binding is in your VSCode).**
 
+## To publish the app
+
+Run
+
+> npm run deploy
+
 # Structure
 
 ## src/components
