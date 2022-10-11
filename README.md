@@ -10,7 +10,7 @@ You can find this page at: https://vijoplays.github.io/profile/.
 
 ## To publish the app
 
-Run
+Run the following script:
 
 > npm run deploy
 
