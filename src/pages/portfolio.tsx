@@ -3,15 +3,15 @@
 //TODO: Show all projects, filter by language
 
 import React from "react";
+import LanguageList from "../components/languageList";
+import ProjectList from "../components/projectList";
 
-function Portfolio() {
+export default function Portfolio() {
   return (
     <div className="Portfolio">
       <h1>Portfolio</h1>
-      Component: List of Languages <br />
-      Component: List of projects <br />
+      <LanguageList />
+      <ProjectList />
     </div>
   );
 }
-
-export default Portfolio;
